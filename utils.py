@@ -65,7 +65,7 @@ def get_temp():
 
     return str(out.group(0))
 
-def post_message(token, username, text, emoji, channel='#general'):
+def post_message(token, username, text, emoji, channel='#testichanneli'):
 
     """sends a chat.postMessage to the specified channel.  data payload is a simple list, attachments must be json-encoded"""
 

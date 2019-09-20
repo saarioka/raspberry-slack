@@ -17,7 +17,6 @@ def response(type):
 
 
     try:
-
         length=len(phrases[type])
         return phrases[type][(random.randint(0,length-1))]
     except KeyError:
